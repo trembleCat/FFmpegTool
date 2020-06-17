@@ -25,9 +25,7 @@ FFmpeg 使用工具
 /// - Parameter NSString *:
 
 + (void)ffmpegWithString:(NSString *)str;
-```
 
-```swift
 /// Be careful BundlePath and DocumentPath   -   注意文件路径
 
         let ffmpegAry: [FFmpegType] = [.ffmpeg, ._i, .bundle(with: "inputVideo.MP4") .document(with: "outputVideo.mkv")]
@@ -46,8 +44,7 @@ FFmpeg 使用工具
 
 /// - Parameter NSArray<FFmpegType *> *:
         let ffmpegAry = [FFmpegType]()
-```
-```objective-c
+
 + (void)ffmpegWithTypeAry:(NSArray<FFmpegType *> *)ary;
 
 /// Be careful BundlePath and DocumentPath   -   注意文件路径
