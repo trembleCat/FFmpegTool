@@ -54,8 +54,8 @@ FFmpeg 使用工具
 
 /// Set other property  -  设置其他属性时
 
-        let setpts: FFmpegType = .init(value: "\"setpts=0.5*PTS\"") or
-        let timer: FFmpegType = .init(value: "00:00:03") or
+        let setpts: FFmpegType = .init(value: "\"setpts=0.5*PTS\"")
+        let timer: FFmpegType = .init(value: "00:00:03")
         let bit: FFmpegType = .init(value: "320k")
 
 /// - Parameter NSArray<FFmpegType *> *:
